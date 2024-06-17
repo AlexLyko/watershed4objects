@@ -10,3 +10,4 @@ Pending optimizations :
 
 - multithread combined with previously overlapped points exclusion
 - use the graph network as a grid.accumulation reference and avoid the computation on elevation
+- Watershed and SmallerWatershed should be merged, with a type condition at launch (they're basically same thing, except one is for collections, and the other one is for single points). In the short term, it's useless and makes the code less readable.
