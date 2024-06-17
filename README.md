@@ -1,7 +1,7 @@
 # watershed4objects
 
 Watersheds are generally computed from an outflow point. 
-In practical terms, in 'data repository' development projects, the engineers already have a reference hydrographic network. 
+In practical terms, in 'data repository' development projects, the engineers already have a reference hydrographic graph. 
 These developments therefore take geographical objects as input (like Polygons, Lines, or Points), not a single point.
 
 Consider it as a [pyShed](https://github.com/mdbartos/pysheds) wrapper.
