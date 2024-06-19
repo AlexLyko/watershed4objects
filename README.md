@@ -11,3 +11,4 @@ Pending optimizations :
 - multithread combined with previously overlapped points exclusion
 - use the graph network as a grid.accumulation reference and avoid the computation on elevation
 - Watershed.py and SmallerWatershed.py should be merged, with a type condition at launch (they're basically same thing, except one is for collections, and the other one is for single points). In the short term, it's useless and makes the code less readable.
+- Should go and try, wether the use of "check" for flow accumulation in Elevation.py, and the "acc" variable, is better in "self" def or in "cls". At a glance the use of an instance is more logical, but if you only have a single MNT, you can afford only one var (a @class method)...
