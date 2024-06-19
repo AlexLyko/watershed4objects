@@ -15,3 +15,10 @@ Pending optimizations :
 
 
 ![image](https://github.com/AlexLyko/watershed4objects/assets/17929890/2af62449-41d5-4c37-b121-c7d61b0259e2)
+
+Error use case is shown as "Error 1" below (a part of the watershed is missing uppward B point):
+![image](https://github.com/AlexLyko/watershed4objects/assets/17929890/a389c35d-c113-4fb1-ab63-ec531efa2576)
+
+You already have the blue lines, so you can use the points from the blue graph for computing the new watershed from B :
+![image](https://github.com/AlexLyko/watershed4objects/assets/17929890/ed53a4d6-53ae-4245-ad38-87111a172f3a)
+
